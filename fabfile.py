@@ -8,7 +8,7 @@ presentations = [{'name': 'fundamentals', 'title': 'Hadoop Fundamentals'}]
                  #{'name': 'operational', 'title': 'Hadoop Operational'}]
 
 def build_all():
-    [build(pres['name']) for pres in presentations]
+    [build_one(pres['name']) for pres in presentations]
     build_index()
 
 def build_index():
@@ -19,16 +19,18 @@ def build_index():
         fh.write(rendered_template)
 
 def operational():
-    build('operational')
+    build_one('operational')
 
 def fundamentals():
-    build('fundamentals')
+    build_one('fundamentals')
 
-def build(pres_name):
+def build_one(pres_name):
     template = template_env.get_template('sources/{}/index.html'.format(pres_name))
     rendered_template = template.render()
     with open('presentations/{}/index.html'.format(pres_name), 'wb') as fh:
         fh.write(rendered_template)
+
+build = build_all
 
 def publish():
     build_all()
