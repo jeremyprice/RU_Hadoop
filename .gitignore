@@ -1,3 +1,4 @@
 node_modules
 presentations/*/
 *.pyc
+presentations/reveal.js/.git
