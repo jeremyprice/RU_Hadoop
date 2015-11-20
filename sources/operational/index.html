@@ -1,0 +1,1829 @@
+<div class="slides">
+    <section class="" data-id="f10846a81aadc360cfd28e5bdeebef0b">&nbsp;
+        <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/524799/pasted-from-clipboard.png" class="absolute-element" style="position: absolute; max-height: none; max-width: none; width: 785.121px; height: 173.401px; z-index: 4; left: 74px; top: 142px;"/>
+        <p class="absolute-element" style="position: absolute; width: 804.564px; height: 46px; z-index: 4; left: 79px; top: 360px; max-height: none; max-width: none;">
+            <font style="font-size: 54px;">Operational</font>
+        </p>
+        <p class="absolute-element" style="position: absolute; width: 804.564px; height: 46px; z-index: 4; left: 79px; top: 360px; max-height: none; max-width: none;">
+            <font style="font-size: 54px;">
+                <br/>
+            </font>
+        </p>
+        <p class="absolute-element" style="position: absolute; width: 804.564px; height: 46px; z-index: 4; left: 79px; top: 360px; max-height: none; max-width: none;">
+            <font style="font-size: 54px;">
+                <br/>
+            </font>
+        </p>
+        <p class="absolute-element" style="position: absolute; width: 804.564px; height: 46px; z-index: 4; left: 79px; top: 360px; max-height: none; max-width: none;">
+            <font style="font-size: 54px;">
+                <br/>
+            </font>
+        </p>
+        <p class="absolute-element" style="position: absolute; width: 804.564px; height: 46px; z-index: 4; left: 79px; top: 360px; max-height: none; max-width: none;">
+            <font style="font-size: 54px;">
+                <br/>
+            </font>
+        </p>
+        <p class="absolute-element" style="position: absolute; width: 804.564px; height: 46px; z-index: 4; left: 79px; top: 360px; max-height: none; max-width: none;">
+            <font style="font-size: 54px;">
+                <br/>
+            </font>
+        </p>
+    </section>
+    <section class="" data-id="e44de44e5fe53ee820525c1d6ca9234a">&nbsp;
+        <p class="absolute-element" style="position: absolute; width: 920.22px; height: 122px; z-index: 4; left: 20px; top: 217px; max-height: none; max-width: none;">
+            <font style="font-size: 98px;">
+                <b>whoami</b>
+            </font>
+        </p>
+    </section>
+    <section class="" data-id="4cd1802d804f1843a720e621d279c3d8">&nbsp;
+        <p class="absolute-element" style="position: absolute; width: 945.1102362204724px; height: 92px; z-index: 4; left: 3px; top: 268px; max-height: none; max-width: none;">
+            <font style="font-size: 54px;">
+                <b> Assess your Knowledge </b>
+            </font>
+        </p>
+        <aside class="notes">this is a transition slide</aside>
+    </section>
+    <section class="" data-id="55a9c6ce9e1db51a28657fb6dd906f16">
+        <p class="absolute-element" style="text-align: left; position: absolute; width: 479px; height: 56px; z-index: 4; left: 38px; top: 41px;">
+            <font color="#000000">
+                <font style="font-size: 54px;">
+                    <b>Learning Objectives</b>
+                </font>
+            </font>
+        </p>
+        <ul class="absolute-element" style="position: absolute; width: 831px; height: 467.244px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+            <li style="margin-bottom: 24px;">
+                <font style="font-size: 32px;">
+                    <font color="#000000">
+                        <font>
+Install a Hadoop Cluster with Apache Ambari
+</font>
+                    </font>
+                </font>
+            </li>
+            <li style="margin-bottom: 24px;">
+                <font style="font-size: 32px;">
+                    <font color="#000000">
+                        <font>
+Describe the various services that comprise HDFS
+</font>
+                    </font>
+                </font>
+            </li>
+            <li style="margin-bottom: 24px;">
+                <font style="font-size: 32px;">
+                    <font color="#000000">
+                        <font>
+Run Hadoop's resource manager - YARN
+</font>
+                    </font>
+                </font>
+            </li>
+            <li style="margin-bottom: 24px;">
+                <font style="font-size: 32px;">
+                    <font color="#000000">
+                        <font>
+Perform basic JVM administration
+</font>
+                    </font>
+                </font>
+            </li>
+            <li style="margin-bottom: 24px;">
+                <font style="font-size: 32px;">
+                    <font color="#000000">
+                        <font>Interact with Hive
+</font>
+                    </font>
+                </font>
+            </li>
+            <li style="margin-bottom: 24px;">
+                <font style="font-size: 32px;">
+                    <font color="#000000">
+                        <font>Use Swift as an additional data storage for Hadoop
+</font>
+                    </font>
+                </font>
+            </li>
+        </ul>
+    </section>
+    <section class="stack" data-id="0069b31f3577b849762e6706efdc2e0f">
+        <section class="" data-id="dbd80fa1ebbedb39336a9137497382f8">
+            <h2 class="absolute-element" style="position: absolute; width: 405px; height: 392px; z-index: 4; left: 277px; top: 137px;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/743646/pasted-from-clipboard.png"/>
+                <br/>
+            </h2>
+        </section>
+        <section class="" data-id="05cace088f35d357d2ec1abb5774868d">&nbsp;
+
+
+
+
+
+
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Data Architecture</b>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 965px; height: 223px; z-index: 4; left: 12px; top: 129px;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/993213/pasted-from-clipboard.png"/>
+                <br/>
+            </h2>
+            <aside class="notes">This is a traditional data architecture. The data repositories provided a single purpose. </aside>
+        </section>
+        <section class="" data-id="9cfac1f1e0492e8ed93d1eace6a9d72e">
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Data Architecture</b>
+                </font>
+            </p>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/993221/pasted-from-clipboard.png" class="absolute-element" style="position: absolute; max-height: none; max-width: none; width: 936px; height: 240.882352941176px; z-index: 4; left: 12px; top: 129px;"/>
+            <aside class="notes">The data source landscape started to grow. Data solutions became challenging and expensive because they had to serve multiple purposes. </aside>"
+        </section>
+        <section class="" data-id="756b5065ea984be545cb9e9f938faac9">
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Data Architecture</b>
+                </font>
+            </p>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/993226/pasted-from-clipboard.png" style="width: 897.142857142857px; height: 314px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 12px; top: 129px;" class="absolute-element"/>
+            <aside class="notes">So data repositories started to scale more.
+
+
+
+(RDBMS) Relational Database Management System
+
+(MPP) Massive Parallel Processing refers to the use of a large number of processors (or separate computers) to perform a set of coordinated computations in parallel.
+
+Data warehouse - a system used for reporting and analyzing data. a system used for reporting and data analysis.
+</aside>
+        </section>
+        <section class="" data-id="ed89980b41882b6256d8cb7dda7f10ef">
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Data Architecture</b>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 933px; height: 384px; z-index: 4; left: 12px; top: 129px; max-height: none; max-width: none;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/993227/pasted-from-clipboard.png" style="width: 892px; height: 381.010011123471px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+            <aside class="notes">
+
+With this cam more applications that required access to a broad range of data types.
+
+Packaged Applications are fully functional applications that can be viewed, used and customized. Each packaged application includes installation scripts that define the application's supporting objects (including database objects, images, and seed data) as well as any preinstallation validations.
+
+Custom Apps are specially developed for a specific organization or other user.
+
+Business analytics refers to the skills, technologies, practices for analyzing past business performance to gain insight and drive business planning.</aside>
+        </section>
+        <section class="" data-id="54f5ea053d9bb22e598dee74846377d8">
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Hadoop</b>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 911px; height: 480px; z-index: 4; left: 12px; top: 129px; max-height: none; max-width: none;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/993232/pasted-from-clipboard.png" style="width: 880px; height: 474.305084745763px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+            <aside class="notes">
+
+        Businesses started to leverage these data solutions to analyze business trends ( data, mostly structured data) to gain insight and create
+        strategies for better business planning. Hadoop started to coexist with conventional relational database management systems to tap into even more data
+        ( mostly unstructured data).
+
+
+</aside>
+        </section>
+        <section class="" data-id="b92011fce32964e68af5a7e989aa4903">
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Hadoop</b>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 925px; height: 445px; z-index: 4; left: 12px; top: 129px; max-height: none; max-width: none;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/993238/pasted-from-clipboard.png" style="width: 885px; height: 445.945494994438px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+            <aside class="notes">Hadoop wrapped in high performing data access and management technologies, security and operations driven by it’s own operating system.</aside>
+        </section>
+        <section class="" data-id="159b1c9bca97ba643b01d2d28c565bcd">
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Hadoop</b>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 919px; height: 443px; z-index: 4; left: 12px; top: 129px; max-height: none; max-width: none;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/993248/pasted-from-clipboard.png" style="width: 879px; height: 442.92213570634px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+            <aside class="notes">
+        Hadoop eventually grew into an entire ecosystem of technologies, driven by it’s YARN Data Operating System, that can manage and process petabytes and
+        petabytes of data.</aside>
+        </section>
+        <section class="" data-id="135ba5d3229e694c93ba0249c743d8c4">
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Hadoop</b>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 932px; height: 306px; z-index: 4; left: 12px; top: 129px; max-height: none; max-width: none;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/993253/pasted-from-clipboard.png" style="width: 892px; height: 305.601779755284px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+            <aside class="notes">Conteent goes here</aside>
+        </section>
+        <section class="" data-id="11d28b8c0b61fb11be94317bc8d4f8c4">
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Hadoop</b>
+                </font>
+            </p>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/993260/pasted-from-clipboard.png" style="width: 884px; height: 461px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 12px; top: 129px;" class="absolute-element"/>
+        </section>
+        <section class="" data-id="fe141c1bc7e24f1d5991faa0f1b410b4">&nbsp;
+
+
+
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/993416/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 686px; height: 251.336206896552px; z-index: 7; left: 46px; top: 245px;" data-fragment-index="0"/>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.359580052494px; height: 55px; z-index: 5; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Hadoop</b>
+                </font>
+            </p>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/993270/pasted-from-clipboard.png" style="width: 891.860869565217px; height: 462px; max-height: none; max-width: none; position: absolute; z-index: 6; left: 12px; top: 129px;" class="absolute-element"/>
+            <aside class="notes">content</aside>
+        </section>
+        <section class="" data-id="087cb57ed4453f66a5c95b6d42745391">
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Hadoop</b>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 935px; height: 467px; z-index: 4; left: 12px; top: 129px; max-height: none; max-width: none;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/993275/pasted-from-clipboard.png" style="width: 895px; height: 466.913236929922px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+        </section>
+        <section class="" data-id="d1d491d1b51cecbd85680959d26655de">
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Hadoop Ecosystem</b>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 935px; height: 467px; z-index: 4; left: 12px; top: 129px; max-height: none; max-width: none;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/995205/pasted-from-clipboard.png" style="width: 834px; height: 435.477844311377px; max-height: none; max-width: none;"/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+
+
+                <br/>
+            </h2>
+        </section>
+        <section class="" data-id="5279c937108e98b3e9a0a0dd738027d6">&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/645342/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 213px; height: 67px; z-index: 29; left: 304px; top: 111px;" data-fragment-index="7"/>
+&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/645330/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 64px; height: 304px; z-index: 28; left: 251px; top: 160px;" data-fragment-index="6"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/645297/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 208px; height: 65px; z-index: 7; left: 481px; top: 551px;" data-fragment-index="5"/>
+&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/644888/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 116px; height: 179px; z-index: 22; left: 594px; top: 115px;" data-fragment-index="4"/>&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/645290/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 177px; height: 296px; z-index: 25; left: 89px; top: 161px;" data-fragment-index="5"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/644870/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 191px; height: 61px; z-index: 11; left: 713px; top: 491px;" data-fragment-index="3"/>&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/644824/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 189px; height: 61px; z-index: 10; left: 480px; top: 493px;" data-fragment-index="2"/>&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/644820/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 211px; height: 64px; z-index: 20; left: 304px; top: 280px;" data-fragment-index="2"/>&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/645320/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 67px; height: 419px; z-index: 26; left: 866px; top: 36px;" data-fragment-index="6"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/644807/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 72px; height: 132px; z-index: 18; left: 382px; top: 162px;" data-fragment-index="2"/>&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/645331/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 189px; height: 60px; z-index: 6; left: 714px; top: 549px;" data-fragment-index="6"/>&nbsp;&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/644890/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 72px; height: 232px; z-index: 23; left: 757px; top: 112px;" data-fragment-index="4"/>&nbsp;&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/644780/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 191px; height: 61px; z-index: 12; left: 244px; top: 494px;" data-fragment-index="1"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/653486/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 579px; height: 88px; z-index: 32; left: 307px; top: 39px;" data-fragment-index="6"/>&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/751031/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 82.719696969697px; height: 122px; z-index: 4; left: 438px; top: 168px;" data-fragment-index="1"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/645355/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 189px; height: 61px; z-index: 5; left: 242px; top: 563px;" data-fragment-index="8"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/645352/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 72px; height: 296px; z-index: 31; left: 30px; top: 161px;" data-fragment-index="8"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/645343/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 191px; height: 60px; z-index: 30; left: 6px; top: 616px;" data-fragment-index="7"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/645327/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 64px; height: 233px; z-index: 27; left: 816px; top: 111px;" data-fragment-index="6"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/644893/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 208px; height: 67px; z-index: 9; left: 6px; top: 553px;" data-fragment-index="4"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/644867/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 72px; height: 232px; z-index: 21; left: 701px; top: 113px;" data-fragment-index="3"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/644811/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 99px; height: 179px; z-index: 19; left: 506px; top: 113px;" data-fragment-index="2"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/644783/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 92px; height: 132px; z-index: 17; left: 302px; top: 164px;" data-fragment-index="1"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/644778/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 215px; height: 68px; z-index: 16; left: 505px; top: 278px;" data-fragment-index="1"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/644768/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 192px; height: 60px; z-index: 13; left: 7px; top: 496px;" data-fragment-index="0"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/535289/pasted-from-clipboard.png" style="font-size: 53.805px; width: 918.819110379586px; height: 396.529233251782px; max-height: none; max-width: none; position: absolute; z-index: 14; left: 15px; top: 43px;" class="absolute-element"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/644746/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 572px; height: 123px; z-index: 15; left: 306px; top: 330px;" data-fragment-index="0"/>
+        </section>
+    </section>
+    <section class="stack" data-id="cdaec18e416e1b32b4e1d78b74ab975c">
+        <section class="" data-id="f27cc7342a67b493019b845a727944de">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 858.290802764487px; height: 122px; z-index: 4; left: 76px; top: 214px; max-height: none; max-width: none;">
+                <font>
+                    <font style="font-size: 98px;">
+                        <b>Getting started&nbsp;</b>
+                    </font>
+                </font>
+            </p>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 865.278043593833px; height: 78px; z-index: 4; left: 78px; top: 354px; max-height: none; max-width: none;">
+                <font style="font-size: 72px;">
+                    <b>w/ Cloud Big Data Platform</b>
+                </font>
+            </p>
+            <aside class="notes">
+This is a chapter slide
+</aside>
+        </section>
+        <section class="" data-id="372ee264fbf9c5d82cafcb4823e06463">&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/740631/pasted-from-clipboard.png" class="absolute-element" style="position: absolute; max-height: none; max-width: none; width: 234.334960379304px; height: 443.351550657649px; z-index: 4; left: 129px; top: 150px;"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/740609/pasted-from-clipboard.png" class="absolute-element" style="position: absolute; max-height: none; max-width: none; width: 444.824224833702px; height: 452.99668096992px; z-index: 4; left: 435px; top: 138px;"/>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 915.312891113892px; height: 57px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Hadoop Architecture Overview</b>
+                </font>
+            </p>
+            <aside class="notes">
+The primary components of Hadoop are storage (the Hadoop Distributed File System), resource/job management (Yarn), and the MapReduce framework.
+Additional components such as Hive, HBase, Pig build on these to provide a large variety of data-processing tools.
+
+HDFS consists of one or two NameNodes and many Datanodes.  Yarn has a ResourceManager to keep track of available resources in the cluster and a NodeManager to report
+available resources on each node to the ResourceManager.
+
+MapReduce is a data processing paradigm that we’ll discuss in more detail later.  It consists of a Map phase, shuffle/sorting phase, and a final Reduce phase.</aside>
+        </section>
+        <section class="" data-id="b46b7622555824d7ad2212999d5db935">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 899.668335419274px; height: 57px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>What is the Cloud Big Data Platform</b>
+                </font>
+            </p>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/740753/pasted-from-clipboard.png" style="width: 513.390766343923px; height: 531.838705624651px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 219px; top: 132px;" class="absolute-element"/>
+            <aside class="notes">More cluster types and versions will be added with every new release of HDP.
+There’s work going on to add some Teeth flavors to the mix as well.</aside>
+        </section>
+        <section class="" data-id="5be8fc2a483c6afe42ef7d1b35868d35">&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/740838/pasted-from-clipboard.png" class="absolute-element" style="position: absolute; max-height: none; max-width: none; width: 892.293144316389px; height: 472.89879921965px; z-index: 4; left: 23px; top: 147px;"/>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Cluster Types</b>
+                </font>
+            </p>
+            <aside class="notes">
+Namenode is the Master Node (single with secondary namenode in HDP 2.1)
+
+Datanode is the slave nodes (Multiple, users gets to choose how many datanodes)
+
+Gateway node is a jump box from where users can interact with the cluster, run jobs and Hive queries</aside>
+        </section>
+        <section class="has-light-background" data-id="1a386a36792b5fa05563e910982a2c86" data-background-color="rgba( 50, 200, 90, 0.4 )">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Lab: Spin up a CBD Cluster</b>
+                </font>
+            </p>
+            <ol class="absolute-element" style="position: absolute; width: 789px; height: 248.18110236220474px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Create a cluster in the Reach control panel</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">SSH into the gateway node</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Load the status pages via an SSH SOCKS proxy</font>
+                </li>
+            </ol>
+        </section>
+        <section class="has-light-background" data-id="450e6373dac0bb1213abb3938b897bf7" data-background-color="rgba( 50, 200, 90, 0.4 )">
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 898.625365039633px; height: 57px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 40px;">
+                    <b>Step 1: Create a cluster in the Reach control panel</b>
+                </font>
+            </p>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 901.360033375052px; height: 46px; z-index: 4; left: 38px; top: 106px; max-height: none; max-width: none;">
+                <font style="font-size: 32px;">Log in to
+
+                    <a href="https://mycloud.rackspace.com/">https://mycloud.rackspace.com</a>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 897px; height: 520.484355444305px; z-index: 4; left: 32px; top: 155px; max-height: none; max-width: none;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/740986/pasted-from-clipboard.png" style="width: 859.331942814511px; height: 498.774732407613px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+            <aside class="notes">
+Make sure the students understand the various options available when building a cluster, what they each do, and how they affect usage of the cluster:
+- If you don’t specify your username and API key, you won’t be able to use SwiftFS to access data in Cloud Files from within the cluster.
+- The number of datanode affects the replication factor within HDFS:
+  - Replication Factor 1: 1-2 Datanodes
+  - Replication Factor 2: 3-4 Datanodes
+  - Replication Factor 3: &gt;4 Datanodes
+</aside>
+        </section>
+        <section class="has-light-background" data-id="fd1956dbaba46fc6c642b70530776d95" data-background-color="rgba( 50, 200, 90, 0.4 )">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 898.625365039633px; height: 57px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 40px;">
+                    <b>Step 2: Create a cluster in the Reach control panel</b>
+                </font>
+            </p>&nbsp;
+            <span style="font-size: 32px; text-align: left; position: absolute; width: 847px; height: 126.152273675428px; z-index: 4; left: 38px; top: 106px; max-height: none; max-width: none;" class="absolute-element">Use the command below to SSH into the gateway node using its public IP and the username/password you created</span>&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741016/pasted-from-clipboard.png" class="absolute-element" style="position: absolute; max-height: none; max-width: none; width: 787.766705022067px; height: 135.695313694778px; z-index: 4; left: 112px; top: 345px;"/>
+            <pre class="absolute-element" style="position: absolute; width: 865px; height: 55px; z-index: 4; left: 51px; top: 216px; max-height: none; max-width: none;">
+                <code contenteditable="">
+                    <font style="font-size: 24px;">ssh -D 12345 username@gatewayip</font>
+                </code></pre>
+            <br/>
+            <aside class="notes">
+Adding the -D option to the ssh command followed by a port number will create a SOCKS proxy on that port on your local system.
+This allows you to point your browser at the local port to proxy all traffic through the server you’ve SSH’d to.</aside>
+        </section>
+        <section class="has-light-background" data-id="45c2a296438e51600d34c8aa3feed254" data-background-color="rgba( 50, 200, 90, 0.4 )">&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741024/pasted-from-clipboard.png" class="absolute-element" style="position: absolute; max-height: none; max-width: none; width: 859.635248504434px; height: 226.308580278008px; z-index: 4; left: 36px; top: 164px;"/>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 920.859407592824px; height: 57px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 40px;">
+                    <b>Step 3: Load the status pages via an SSH SOCKS proxy</b>
+                </font>
+            </p>
+        </section>
+    </section>
+    <section class="stack" data-id="76da4ba4dfa26f40d14a649c3d16faa8">
+        <section class="" data-id="a711a593f42eaf4da89bdfc1a2c61db8">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 918px; height: 180.406341259908px; z-index: 4; left: 23px; top: 172px; max-height: none; max-width: none;">
+                <font style="font-size: 80px;">
+                    <b>Distributed Filesystem - HDFS</b>
+                </font>
+            </p>
+            <aside class="notes">
+This is a chapter slide
+</aside>
+            <img src="http://thinkaurelius.github.io/faunus/wikidoc/0.3.2/images/hdfs-logo.jpg" class="absolute-element" style="position: absolute; max-height: none; max-width: none; width: 238px; height: 71.2380952380952px; z-index: 4; left: 676px; top: 589px;"/>
+        </section>
+        <section class="" data-id="acff3b083df381e2ebbb1eeb6c469109">&nbsp;
+
+
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 916.355861493534px; height: 57px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>NameNode and DataNodes</b>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 922px; height: 562px; z-index: 4; left: 27px; top: 116px;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741051/pasted-from-clipboard.png"/>
+                <br/>
+            </h2>
+            <aside class="notes absolute-element" style="position: absolute; width: 15.9399249061327px; height: 690px; z-index: 4; left: -4px; top: -203px; max-height: none; max-width: none;">
+https://hadoop.apache.org/docs/r1.0.4/hdfs_design.html
+
+HDFS has a master/slave architecture. An HDFS cluster consists of a single NameNode, a master server that manages the file system namespace and regulates access to files by
+clients. In addition, there are a number of DataNodes, usually one per node in the cluster, which manage storage attached to the nodes that they run on. HDFS exposes a file
+system namespace and allows user data to be stored in files. Internally, a file is split into one or more blocks and these blocks are stored in a set of DataNodes.
+The NameNode executes file system namespace operations like opening, closing, and renaming files and directories. It also determines the mapping of blocks to DataNodes.
+The DataNodes are responsible for serving read and write requests from the file system’s clients. The DataNodes also perform block creation, deletion, and replication
+upon instruction from the NameNode.
+</aside>
+        </section>
+        <section class="" data-id="12edd80892e83e608556a793e30e67e8">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>File System</b>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 787px; height: 459.968710888611px; z-index: 4; left: 22px; top: 109px; max-height: none; max-width: none;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741132/pasted-from-clipboard.png"/>&nbsp; &nbsp; &nbsp;
+                <br/>
+            </h2>
+            <aside class="notes">
+The File System Namespace
+HDFS supports a traditional hierarchical file organization. A user or an application can create directories and store files inside these directories. The file system
+namespace hierarchy is similar to most other existing file systems; one can create and remove files, move a file from one directory to another, or rename a file.
+
+HDFS does not yet implement user quotas. HDFS does not support hard links or soft links. However, the HDFS architecture does not preclude implementing these features.
+The NameNode maintains the file system namespace. Any change to the file system namespace or its properties is recorded by the NameNode. An application can specify the
+number of replicas of a file that should be maintained by HDFS. The number of copies of a file is called the replication factor of that file. This information is stored
+by the NameNode.</aside>
+        </section>
+        <section class="" data-id="d777963b1cc924560b6798c06071b939">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Configuration</b>
+                </font>
+            </p>
+            <br/>
+            <h2 class="absolute-element" style="position: absolute; width: 964px; height: 401px; z-index: 4; left: 1px; top: 100px;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741138/pasted-from-clipboard.png"/>&nbsp;
+                <br/>
+            </h2>
+            <aside class="notes">
+The Default blocksize is a configurable parameter for the cluster as a whole. This can be modified on a per-file basis by passing a modified blocksize on the command line
+when passing a hdfs -put command or anything similar.
+
+Changing the blocksize does not automatically change existing files
+
+Best practices for namenode metadata storage is Raid10 for speed and redundancy
+
+Best Practices for data and temp (for things like spill files) is JBOD configured within the services to allow for writing sequentially to disks listed within the
+configuration. All disks listed should be identical.
+
+
+</aside>
+        </section>
+        <section class="" data-id="35908a7f01fad64090d6b46ee00e64e4">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Data ingest and replication</b>
+                </font>
+            </p>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 479px; height: 46px; z-index: 4; left: 38px; top: 124px;">How data is saved to HDFS</p>
+            <h2 class="absolute-element" style="position: absolute; width: 964px; height: 444px; z-index: 4; left: -1px; top: 158px;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741157/pasted-from-clipboard.png"/>
+                <br/>
+            </h2>
+            <aside class="notes">This slides speaks for itself. Whiteboard it. </aside>
+        </section>
+        <section class="has-light-background" data-id="230857b2bd1913eb2058be1b9c3ab349" data-background-color="rgba( 50, 200, 90, 0.4 )">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 901.754276178557px; height: 57px; z-index: 4; left: 26px; top: 35px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Lab: HDFS ingest and replication</b>
+                </font>
+            </p>
+            <ol class="absolute-element" style="position: absolute; width: 868.257822277847px; height: 248px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Copy a file into HDFS with 1 MB (1048576 b) blocksize</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Copy a file into HDFS with a 5x replication factor</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Look up all the information that’s available on the webpages for the services
+</font>
+                </li>
+            </ol>
+            <p class="absolute-element" style="position: absolute; width: 748px; height: 46px; z-index: 4; left: 21px; top: 629px;">
+                <b>NOTE: </b>Complete this work on the Gateway Node
+            </p>
+        </section>
+        <section class="has-light-background" data-id="7b1e74489d28b0689c0ea7a021e80a1f" data-background-color="rgba( 50, 200, 90, 0.4 )">&nbsp;
+
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Lab Solution</b>
+                </font>
+            </p>
+            <pre class="absolute-element" style="position: absolute; width: 866px; height: 66.68766404199475px; z-index: 4; left: 38px; top: 174px; max-height: none; max-width: none;">
+                <code contenteditable="">
+hadoop fs -D dfs.blocksize=30 -put somefile somelocation
+hdfs fsck filelocation -files -blocks -locations
+hdfs dfs -mkdir test
+hdfs dfs -ls
+
+</code></pre>
+            <aside class="notes">
+See the file system:   hdfs dfs -ls /
+Upload File default location = /user/USERNAME
+hdfs fsck /user/USERNAME [or the path you specified upon upload if you used something other than the default] -files -blocks -location</aside>
+        </section>
+        <section class="" data-id="7134e9dd8cbe2473c7b2f25d78d24a70">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Namenode functionality</b>
+                </font>
+            </p>
+            <ul class="absolute-element" style="position: absolute; width: 854.750104297038px; height: 248px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Keeps track of the HDFS namespace metadata</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Controls opening, closing, and renaming files/directories by clients</font>
+                </li>
+            </ul>
+            <aside class="notes">
+The Namenode, once the single point of failure of Hadoop, is an essential piece of the HDFS architecture as it hold all information about location and access rights of
+all files and blocks across HDFS. It also is the piece that the client speaks to when initiating a connection, making the decisions for where new files will land.
+</aside>
+        </section>
+        <section class="" data-id="1d411aaf1f5890863533fb43bba40b06">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Datanode functionality</b>
+                </font>
+            </p>
+            <ul class="absolute-element" style="position: absolute; width: 789px; height: 248.18110236220474px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Handles read/write requests for blocks</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Reports blocks back to the Namenode</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Replicates blocks to other datanodes</font>
+                </li>
+            </ul>
+            <aside class="notes">Datanodes hold blocks of data and send block reports back to the namenode. They are meant to be redundant and contain many disks for
+speed of reads and writes.
+</aside>
+        </section>
+        <section class="" data-id="0afdd64e0a99ce4275090dbbf376bb67">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>File Permission</b>
+                </font>
+            </p>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 905.531914893617px; height: 46px; z-index: 4; left: 38px; top: 124px; max-height: none; max-width: none;">Supports POSIX-style permissions</p>
+            <ul class="absolute-element" style="position: absolute; width: 849.535252398832px; height: 248px; z-index: 4; left: 105px; top: 187px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">user:group ownership</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">rwx permissions on user, group, and other</font>
+                </li>
+            </ul>
+            <pre class="absolute-element" style="position: absolute; width: 866px; height: 66.6876640419948px; z-index: 4; left: 41px; top: 334px; max-height: none; max-width: none;">
+                <code contenteditable="">
+$ hdfs dfs -ls myfile
+-rw-r--r--   1 swanftw swanftw          1 2014-07-24 20:14 myfile
+$ hdfs dfs -chmod 755 myfile
+$ hdfs dfs -ls myfile
+-rwxr-xr-x   1 swanftw swanftw      	1 2014-07-24 20:14 myfile
+
+</code></pre>
+            <aside class="notes">These permissions restrict access to files and directories and should be taken into consideration whenever you need to access data in HDFS or
+write to HDFS.
+</aside>
+        </section>
+        <section class="" data-id="781a297db6e9b8cb546de3a7a3327a43">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>File System Shell</b>
+                </font>
+            </p>
+
+&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741257/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 582.007787620519px; height: 132.070755288774px; z-index: 4; left: 161px; top: 451px;" data-fragment-index="2"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741255/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 581.686969931741px; height: 141.34115283094px; z-index: 4; left: 160px; top: 292px;" data-fragment-index="1"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741252/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 576.472118033535px; height: 139.444299459014px; z-index: 4; left: 163px; top: 139px;" data-fragment-index="0"/>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.359580052494px; height: 55px; z-index: 4; left: 308px; top: 544px; max-height: none; max-width: none;">
+                <br/>
+            </p>
+            <aside class="notes">
+The HDFS CLI is the main tool for an admin to interact with the clustered filesystem.  It provides many Unix-like options like -ls, -chown, and -cat, which we will
+explore later in a lab.
+</aside>
+        </section>
+        <section class="" data-id="bd4d4d58f9985b2a850c1188bcd7cc11">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 891.324572382144px; height: 57px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>File system shell (HDFS client)</b>
+                </font>
+            </p>
+
+
+&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741303/pasted-from-clipboard.png" style="width: 636px; height: 153px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 140px; top: 462px;" class="absolute-element fragment" data-fragment-index="2"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741301/pasted-from-clipboard.png" style="width: 634px; height: 153px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 145px; top: 293px;" class="absolute-element fragment" data-fragment-index="1"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741297/pasted-from-clipboard.png" style="width: 637px; height: 149px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 147px; top: 127px;" class="absolute-element fragment" data-fragment-index="0"/>
+            <aside class="notes">
+The hdfs dfs -rm command allows you to remove files from HDFS.  It supports additional arguments such as -r for recursive deletes and -skipTrash if you’d like to permanently
+delete files rather than moving them to the trash.
+
+hdfs dfs -put can be used to upload a file from the local system.  The following two arguments are the local file followed by the HDFS filename and/or path.  By using a
+dash in place of the local filename, you can read data from stdin instead of from a file.  This allows you to pipe data into HDFS, such as output from echo as in the example.
+
+Ownership and permissions are modified using mdfs dfs -chown and -chmod, with usage almost identical to the chown and chmod commands on *nix systems.
+
+hdfs dfs -cat allow you to output the contents of files in HDFS.  This contents can be displayed in the terminal or piped into other commands as needed.
+</aside>
+        </section>
+        <section class="" data-id="d8ae33c24e7d0c7c5f0a50dbea9467c2">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 891.324572382144px; height: 57px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>File system shell (HDFS client) cont...</b>
+                </font>
+            </p>
+
+&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741310/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 597.777499760694px; height: 138.917443717095px; z-index: 4; left: 167px; top: 302px;" data-fragment-index="1"/>
+            <h2 class="absolute-element fragment" style="position: absolute; width: 632px; height: 182px; z-index: 4; left: 166px; top: 140px;" data-fragment-index="0">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741309/pasted-from-clipboard.png" style="width: 591.675288663489px; height: 142.719147722772px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+        </section>
+        <section class="" data-id="c03900ca2e6d9349250a1501cf4adb63">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 891.324572382144px; height: 57px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>File system shell (HDFS admin)
+</b>
+                </font>
+            </p>
+
+&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741325/pasted-from-clipboard.png" style="width: 642.898484324733px; height: 149.694330928654px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 147px; top: 322px;" class="absolute-element fragment" data-fragment-index="1"/>&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741329/pasted-from-clipboard.png" style="width: 644px; height: 154px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 148px; top: 486px;" class="absolute-element fragment" data-fragment-index="2"/>
+            <h2 class="absolute-element fragment" style="position: absolute; width: 678px; height: 192px; z-index: 4; left: 143px; top: 158px;" data-fragment-index="0">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741322/pasted-from-clipboard.png" style="width: 637.565985367703px; height: 152.373978016466px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+            <aside class="notes">
+The HDFS report command shows you a usage report and block summary for HDFS.  This allows you to check total cluster usage as well as usage on each individual datanode.
+
+A block report provides much more detail by listing out any under-replicated or missing blocks.
+
+-list-corruptfileblocks allows you to list any corrupt file blocks that have been detected within HDFS.
+</aside>
+        </section>
+    </section>
+    <section class="stack" data-id="753661f243963140179b60064f654f38">
+        <section class="" data-id="82b4abd5bb084a877fb8ce8c826704a2">&nbsp;
+            <p class="absolute-element" style="position: absolute; width: 920.2204724409448px; height: 122px; z-index: 4; left: 20px; top: 217px; max-height: none; max-width: none;">
+                <font style="font-size: 98px;">
+                    <b>YARN</b>
+                </font>
+            </p>
+            <aside class="notes">
+This is a chapter slide
+</aside>
+
+&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/550566/pasted-from-clipboard.png" class="absolute-element" style="position: absolute; max-height: none; max-width: none; width: 306px; height: 71.2948453608247px; z-index: 7; left: 479px; top: 581px;"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/550563/pasted-from-clipboard.png" style="width: 152px; height: 106.466960352423px; max-height: none; max-width: none; position: absolute; z-index: 8; left: 757px; top: 544px;" class="absolute-element"/>
+        </section>
+        <section class="" data-id="a81a47e98e74ae527f7bacce068c03bd">&nbsp;
+
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>YARN</b>
+                </font>
+            </p>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 918px; height: 138.824363788068px; z-index: 4; left: 38px; top: 124px; max-height: none; max-width: none;">The JobTracker and TaskTracker have been replaced with the YARN ResourceManager and NodeManager.</p>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 927.386733416771px; height: 192px; z-index: 4; left: 37px; top: 264px; max-height: none; max-width: none;">Application Master negotiates resources with the Resource Manager and works with the NodeManagers to start the containers</p>
+            <aside class="notes">YARN has been focused by many as a stand alone project. Job Tracker has become Resource Manager and Task tracker has become NodeManager</aside>
+        </section>
+        <section class="" data-id="e481404897365ad95920ade4d40c568e">&nbsp;
+
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>YARN</b>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 794px; height: 487.757613683771px; z-index: 4; left: 83px; top: 104px; max-height: none; max-width: none;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741621/pasted-from-clipboard.png" style="width: 621.809867198178px; height: 502.113336222939px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+            <aside class="notes">
+
+Discuss the lifecycle of a container within YARN:
+
+-When a client submits a request it is provided an ApplicationID
+-The ApplicationID is used in the submission to the cluster
+-The Application Manager, Upon submission locates a Node which has resources available to spin up the Application Master
+-The Application Master, once spun up will communicate with the ResourceManager and retrieve available memory and cpu resources
+-If the request is small enough, the application master will simply process the request itself
+-Normally though, the Application Master will request containers
+-The Application Master will receive leases on containers in accordance with the YarnScheduler Policy
+-Containers will preferable be spun up and process local to data </aside>
+        </section>
+        <section class="" data-id="e62645ba5dff6219ad4793ddf3bd3164">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Node Manager</b>
+                </font>
+            </p>
+            <ul class="absolute-element" style="position: absolute; width: 851.621193158114px; height: 248px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Typically runs on each datanode</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Responsible for monitoring and allocating resources to containers</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Reports resources back to Resource Manager</font>
+                </li>
+            </ul>
+        </section>
+        <section class="" data-id="11a5bb0e36600e00b5454d837b1a4f2b">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 815.187734668336px; height: 57px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <a href="http://hortonworks.com/blog/apache-hadoop-yarn-nodemanager/">
+                        <b>Node Manager Components</b>
+                    </a>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 764px; height: 533px; z-index: 4; left: 107px; top: 113px;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741631/pasted-from-clipboard.png" style="width: 723.437908605083px; height: 493.617837466541px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+            <aside class="notes"></aside>
+        </section>
+        <section class="" data-id="75890cdc4d70e28005d6fa4130a45811">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Resource Manager</b>
+                </font>
+            </p>
+            <ul class="absolute-element" style="position: absolute; width: 845.363370880267px; height: 248px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Typically runs alongside the Namenode service</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Coordinates all resources among the given nodes</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Works together with the Node Managers and Application Masters</font>
+                </li>
+            </ul>
+        </section>
+        <section class="" data-id="a3c6e8640f27989e1b0d0f1c1781b01a">&nbsp;
+
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 898.625365039633px; height: 57px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <a href="http://hortonworks.com/blog/apache-hadoop-yarn-resourcemanager/">
+                        <b>Resource Manager Components</b>
+                    </a>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 784px; height: 525.085940759282px; z-index: 4; left: 97px; top: 132px; max-height: none; max-width: none;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741642/pasted-from-clipboard.png" style="width: 731.750382530824px; height: 496.161523511007px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+        </section>
+        <section class="" data-id="1f53de6dbf7537fcaf68b8da7a9db73b">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <a href="http://hortonworks.com/hadoop/mapreduce/">
+                        <b>MapReduce</b>
+                    </a>
+                </font>
+            </p>
+            <ul class="absolute-element" style="position: absolute; width: 858px; height: 438.863579474343px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Splits a large data set into independent chunks and organizes them into key, value pairs for parallel processing</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Uses parallel processing to improve the speed and reliability of the cluster</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">YARN based job that takes advantage of the ability to parallel process</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Three step process of Map, Shuffle/Sort and then Reduce</font>
+                </li>
+            </ul>
+        </section>
+        <section class="" data-id="17249fb4f259afcc0a639154e6bdbe03">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Map</b>
+                </font>
+            </p>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 884.672507300793px; height: 46px; z-index: 4; left: 35px; top: 131px; max-height: none; max-width: none;">The ETL or Projection piece of MapReduce</p>
+            <ul class="absolute-element" style="position: absolute; width: 787px; height: 166.648310387985px; z-index: 4; left: 75px; top: 196px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Extract &gt; Transform &gt; Load</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Map phase</font>
+                </li>
+            </ul>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 810.871088861076px; height: 184px; z-index: 4; left: 112px; top: 301px; max-height: none; max-width: none;">
+                <font style="font-size: 24px;">Divides the input into ranges and creates a map task for each range in the input. &nbsp; &nbsp; &nbsp; Tasks are distributed to the worker nodes. The output of each map task is partitioned into a group of key-value pairs for each reduce.</font>
+            </p>
+            <aside class="notes">EXTRACT &gt; TRANSFORM &gt; LOAD</aside>
+        </section>
+        <section class="" data-id="54f846dbdf402642e713b12374845358">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Shuffle/Sort</b>
+                </font>
+            </p>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 908px; height: 123.17980809345px; z-index: 4; left: 38px; top: 124px; max-height: none; max-width: none;">This refers to the action of shuffling &amp; snorting data across the network nodes
+</p>
+        </section>
+        <section class="" data-id="509ceb8e0ff7723a90a77157ccbd1e95">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Reduce</b>
+                </font>
+            </p>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 479px; height: 46px; z-index: 4; left: 38px; top: 124px;">Reduce Phase</p>
+            <ul class="absolute-element" style="position: absolute; width: 831.804755944931px; height: 248px; z-index: 4; left: 75px; top: 196px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Collects the various results and combines them to answer the larger problem the master node was trying to solve. Each reduce pulls the relevant partition from the machines where the maps executed, then writes its output back into HDFS.</font>
+                </li>
+            </ul>
+        </section>
+        <section class="" data-id="1474dff06bcf4f594796b7eadbcf18b9">&nbsp;
+
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>MapReduce</b>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 747px; height: 574px; z-index: 4; left: 133px; top: 111px;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741667/pasted-from-clipboard.png" style="width: 707.445000803665px; height: 534.789767735684px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+        </section>
+        <section class="" data-id="2dc97ae4f2bf83125855b48434c2a464">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>YARN Applications</b>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 726px; height: 452px; z-index: 4; left: 129px; top: 129px;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741689/pasted-from-clipboard.png" style="width: 686.58559321084px; height: 412.389305715203px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+            <aside class="notes">Hoya = the future project that will place HBase on YARN (currently operates independently of YARN)</aside>
+        </section>
+        <section class="" data-id="00652a49cec659bf350455c9c99449f8">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <a href="http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YarnCommands.html">
+                        <b>YARN Commands</b>
+                    </a>
+                </font>
+            </p>
+
+&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741718/pasted-from-clipboard.png" style="width: 781.910165592985px; height: 153.692564692078px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 86px; top: 445px;" class="absolute-element"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741716/pasted-from-clipboard.png" style="width: 782.824224833702px; height: 153.275394773065px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 86px; top: 286px;" class="absolute-element"/>
+            <h2 class="absolute-element" style="position: absolute; width: 825px; height: 197px; z-index: 4; left: 86px; top: 123px;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741713/pasted-from-clipboard.png" style="width: 784.624808897115px; height: 158.796348278875px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+        </section>
+        <section class="" data-id="e3bf8b542bc0da09cfded55a23f12fc6">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <a href="http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YarnCommands.html">
+                        <b>rmadmin Commands</b>
+                    </a>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 964px; height: 537px; z-index: 4; left: -5px; top: 101px;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741783/pasted-from-clipboard.png"/>
+                <br/>
+            </h2>
+        </section>
+        <section class="" data-id="25831e080309a8903ce0409ec39da651">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>rmadmin Commands</b>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 964px; height: 537px; z-index: 4; left: -5px; top: 101px;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741797/pasted-from-clipboard.png"/>
+                <br/>
+            </h2>
+        </section>
+        <section class="has-light-background" data-id="6844d9bea592fdbb5eba2a449b84ea27" data-background-color="rgba( 50, 200, 90, 0.4 )">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Lab: MapReduce</b>
+                </font>
+            </p>
+            <ul class="absolute-element" style="position: absolute; width: 843.277430120985px; height: 248px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Submit a MapReduce job</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Inspect the output and observe the status pages while your job is running and after it completes</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Copy a book in txt format into HDFS and use it as input to the wordcount function in hadoop-mapreduce-examples.jar</font>
+                </li>
+            </ul>
+            <aside class="notes">
+
+EXAMPLE MapReduce JOB IN:  /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
+SEE DETAILS WITH:  hadoop jar hadoop-mapreduce-examples.jar
+NOTE:   hadoop fs -ls   ==   hdfs dfs -ls
+CREATE A FILE:  echo STUFF &gt; sample.txt
+UPLOAD INTO HDFS: hdfs dfs -copyFromLocal sample.txt input    ==    hdfs dfs -put sample.txt input
+RUN THE JOB:  hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar wordcount input output
+
+CLEANING UP HUNG JOBS:  yarn application -list
+    			   yarn application -kill
+                <app_id></app_id>
+            </aside>
+        </section>
+        <section class="has-light-background" data-id="9f37e3ab13b35c9b6b3605ea8942d9b3" data-background-color="rgba( 50, 200, 90, 0.4 )">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Lab Solution</b>
+                </font>
+            </p>
+            <pre class="absolute-element" style="position: absolute; width: 866px; height: 66.68766404199475px; z-index: 4; left: 38px; top: 174px; max-height: none; max-width: none;">
+                <code contenteditable="">
+$ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar wordcount /user/
+                    <username>/in /user/
+                        <username>/out
+
+</username>
+                    </username>
+                </code></pre>
+            <aside class="notes">
+1. Emphasise on the solution</aside>
+        </section>
+        <section class="" data-id="636cd86eca579cf37af72e9ef9912fdf">&nbsp;
+            <p class="absolute-element" style="position: absolute; width: 945.1102362204724px; height: 92px; z-index: 4; left: 3px; top: 268px; max-height: none; max-width: none;">
+                <font>
+                    <a href="http://hortonworks.com/blog/how-to-plan-and-configure-yarn-in-hdp-2-0/"></a>
+                    <font style="font-size: 72px;">
+                        <b> DEMO: Configuration</b>
+                    </font>
+                </font>
+            </p>
+            <aside class="notes">
+
+Look for memory history server and memory settings in site.xml
+
+point out History server connection string and memory settings
+
+discuss the benefits of location of history server
+
+discuss memory allocation in YARN
+
+discuss MapReduce2 memory allocation associated in relation to YARN
+
+http://hortonworks.com/blog/how-to-plan-and-configure-yarn-in-hdp-2-0/
+FILE:  /etc/hadoop/conf/yarn-site.xml
+</aside>
+        </section>
+        <section class="has-light-background" data-id="461f9707ae5b8b939704de625823c01d" data-background-color="rgba( 50, 200, 90, 0.4 )">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Lab: Commands</b>
+                </font>
+            </p>
+            <ul class="absolute-element" style="position: absolute; width: 843.277430120985px; height: 248px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Submit a MapReduce job of your choice</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Use the commands learned in this section to view the status of the job</font>
+                </li>
+            </ul>
+        </section>
+    </section>
+    <section class="stack" data-id="ff5c831f666490762acee56c416e0817">
+        <section class="" data-id="7cad96921340a697b37885b5652da3f5">&nbsp;
+            <p class="absolute-element" style="text-align: center; position: absolute; width: 920.2204724409448px; height: 122px; z-index: 4; left: 20px; top: 217px; max-height: none; max-width: none;">
+                <font style="font-size: 78px;">
+                    <b>Basic JVM Administration</b>
+                </font>
+            </p>
+            <aside class="notes">
+This is a chapter slide
+</aside>
+            <img src="http://4.bp.blogspot.com/-_my_lmzybdQ/UjnQR3vUG5I/AAAAAAAACf8/c_okw5mmbyA/s1600/Java.png" class="absolute-element" style="position: absolute; max-height: none; max-width: none; width: 156px; height: 156px; z-index: 4; left: 754px; top: 500px;"/>
+        </section>
+        <section class="" data-id="b69074dc846edd0739cf21ceee9be2e7">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>HEAP</b>
+                </font>
+            </p>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 918.047559449312px; height: 46px; z-index: 4; left: 38px; top: 124px; max-height: none; max-width: none;">Memory Allocated to a JVM and is where referenced objects are stored.
+</p>
+            <h2 class="absolute-element" style="position: absolute; width: 801px; height: 429.429703796412px; z-index: 4; left: 98px; top: 245px; max-height: none; max-width: none;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741858/pasted-from-clipboard.png" style="width: 760.636490165367px; height: 380.080921608573px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+        </section>
+        <section class="" data-id="b596047e939b780c402ba0c5ddae2d89">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>HEAP</b>
+                </font>
+            </p>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 918px; height: 138.824363788068px; z-index: 4; left: 38px; top: 124px; max-height: none; max-width: none;">During Garbage Collection unreferenced objects are cleared out of memory and survivors of the process are moved to the first survivor space. </p>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 919.742177722153px; height: 192px; z-index: 4; left: 37px; top: 287px; max-height: none; max-width: none;">As an object survives longer it is promoted into older generation space.
+</p>
+        </section>
+        <section class="" data-id="939fa61b2d1a1ede09f8ed8b1c6566fb">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Java Commands</b>
+                </font>
+            </p>
+
+&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741875/pasted-from-clipboard.png" style="width: 751px; height: 160px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 82px; top: 318px;" class="absolute-element"/>
+            <h2 class="absolute-element" style="position: absolute; width: 789px; height: 197px; z-index: 4; left: 73px; top: 134px;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741873/pasted-from-clipboard.png" style="width: 749.163815989313px; height: 159.099264185137px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+        </section>
+        <section class="" data-id="9e5ba579c56cd2661969ee095a74b357">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>JMX</b>
+                </font>
+            </p>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 923px; height: 171.156445556946px; z-index: 4; left: 38px; top: 124px; max-height: none; max-width: none;">Hadoop by default extends information about the running processes for monitoring via nagios or other custom monitoring.</p>
+        </section>
+        <section class="" data-id="9ba51aadc79c9850ab5f855848dde79c">&nbsp;
+
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Slide Title</b>
+                </font>
+            </p>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 479px; height: 46px; z-index: 4; left: 38px; top: 124px;">fields in jstat -gcutil</p>
+            <h2 class="absolute-element" style="position: absolute; width: 656.281184814351px; height: 494px; z-index: 4; left: -27px; top: 160px; max-height: none; max-width: none;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/741896/pasted-from-clipboard.png" style="width: 543.531358751099px; height: 490.157231016525px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+        </section>
+        <section class="has-light-background" data-id="24216a60b7e15fa3ff944acae6001881" data-background-color="rgba( 50, 200, 90, 0.4 )">&nbsp;
+
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 901.754276178557px; height: 57px; z-index: 4; left: 26px; top: 35px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Lab: Java Monitoring</b>
+                </font>
+            </p>
+            <ol class="absolute-element" style="position: absolute; width: 868.257822277847px; height: 248px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">From the Primary Namenode, run “ sudo jps -l “ and identify the namenode service /font&gt;
+</font>
+                </li>
+                <font style="font-size: 32px;">
+                    <li style="margin-bottom: 24px;">
+                        <font style="font-size: 32px;">Using jstat iterate over the statistics until you observe the garbage collection process move objects</font>
+                    </li>
+                    <li style="margin-bottom: 24px;">
+                        <font style="font-size: 32px;">What statistics changed?
+</font>
+                    </li>
+                </font>
+            </ol>
+            <font style="font-size: 32px;">
+                <aside class="notes">
+
+Students will need their hadoop cluster available to log into and perform these operations. This lab is intended to build familiarity with the command line observations
+of JVM
+
+sudo yum -y install java-1.7.0-openjdk-devel.x86_64
+export PATH=$PATH:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.65.x86_64/bin/</aside>
+            </font>
+        </section>
+        <section class="has-light-background" data-id="5749cb2832d2697aa053338566f937c1" data-background-color="rgba( 50, 200, 90, 0.4 )">&nbsp;
+
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Lab Solution</b>
+                </font>
+            </p>
+            <pre class="absolute-element" style="position: absolute; width: 866px; height: 66.6876640419948px; z-index: 4; left: 37px; top: 116px; max-height: none; max-width: none;">
+                <code contenteditable="">
+jps -l
+
+25760 org.apache.zookeeper.server.quorum.QuorumPeerMain
+1615 org.apache.hadoop.hdfs.server.namenode.NameNode
+2279 org.apache.hadoop.yarn.server.nodemanager.NodeManager
+
+
+jstat -gcutil 1615 2000   ←- 1615=PID 2000=Times to report
+
+-observe changes in allocations
+
+sudo yum -y install java-1.7.0-openjdk-devel.x86_64
+
+</code></pre>
+            <aside class="notes">
+1. Emphasise on the solution</aside>
+        </section>
+    </section>
+    <section class="stack" data-id="351f0c28c55b9b1ca5a85063f01c310a">
+        <section class="" data-id="c7fef5e870ee29f8132b8cdef6cbe996">&nbsp;
+            <p class="absolute-element" style="position: absolute; width: 950.333px; height: 121px; z-index: 4; left: 3px; top: 217px; max-height: none; max-width: none;">
+                <font style="font-size: 98px;">
+                    <b>Hive and Pig</b>
+                </font>
+            </p>
+            <aside class="notes">
+This is a chapter slide
+</aside>
+            <img src="http://jira.pentaho.com/secure/thumbnail/35657/_thumb_35657.png" class="absolute-element" style="position: absolute; max-height: none; max-width: none; width: 119px; height: 148.382716049383px; z-index: 4; left: 777px; top: 500px;"/>
+            <img src="http://hortonworks.com/wp-content/uploads/2013/10/pig.gif" style="width: 89px; height: 144.44262295082px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 689px; top: 492px;" class="absolute-element"/>
+        </section>
+        <section class="" data-id="2bf330cea82d29b2dcd7f058d0781762">&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/743548/pasted-from-clipboard.png" class="absolute-element fragment" style="position: absolute; max-height: none; max-width: none; width: 497px; height: 271.090909090909px; z-index: 4; left: 215px; top: 304px;" data-fragment-index="0"/>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>What is Pig?</b>
+                </font>
+            </p>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 900px; height: 132px; z-index: 4; left: 38px; top: 124px; max-height: none; max-width: none;">Apache Pig is a high level language for expressing data analysis programs built on top of the Hadoop platform for analyzing large data sets.</p>
+            <aside class="notes">
+2 layers
+- Pig latin is a textual high level language
+- The infrastructure layer is a compiler that converts the pig latin scripts into map reduce jobs that it subsequently runs in parallel. </aside>
+        </section>
+        <section class="" data-id="58990a46fd078b2728bab3e90dffe981">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Why Pig?</b>
+                </font>
+            </p>
+            <ul class="absolute-element" style="position: absolute; width: 789px; height: 248.18110236220474px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Ease of programming</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Optimization opportunities</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Extensibility</font>
+                </li>
+            </ul>
+            <aside class="notes">
+
+Ease of programming. It is trivial to achieve parallel execution of simple, "embarrassingly parallel" data analysis tasks. Complex tasks comprised of multiple interrelated
+data transformations are explicitly encoded as data flow sequences, making them easy to write, understand, and maintain.
+Optimization opportunities. The way in which tasks are encoded permits the system to optimize their execution automatically, allowing the user to focus on semantics rather
+than efficiency.
+Extensibility. Users can create their own functions to do special-purpose processing.
+
+</aside>
+        </section>
+        <section class="" data-id="1705bc6da4a17dc26e4906d4d5464640">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Using Pig</b>
+                </font>
+            </p>
+            <ul class="absolute-element" style="position: absolute; width: 789px; height: 248.18110236220474px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Grunt Shell - For interactive pig commands</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Script file</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Modes: Local Mode and Hadoop Mode</font>
+                </li>
+            </ul>
+            <aside class="notes">Pig can be run interactively from a shell called the grunt shell or you can create a pig script that can be invoked.
+
+Local mode tries to run a sample set locally, and the hadoop mode basically compiles it to MapReduce jobs.
+
+</aside>
+        </section>
+        <section class="" data-id="3c0ea8d093508e352e5b81437dfb9fbb">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Sample Pig Script</b>
+                </font>
+            </p>
+            <pre class="absolute-element" style="position: absolute; width: 866px; height: 66.6876640419948px; z-index: 4; left: 37px; top: 116px; max-height: none; max-width: none;">
+                <code contenteditable="">
+A = load ‘passwd’ using PigStorage(‘:’);
+B = foreach A generate $0 as id;
+store B into ‘id.out’;
+
+</code></pre>
+        </section>
+        <section class="" data-id="0f71cb3cc956da1c932808e232a83a82">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Hive</b>
+                </font>
+            </p>
+            <ul class="absolute-element" style="position: absolute; width: 789px; height: 248.18110236220474px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Opensourced by Facebook</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Data warehouse for querying large sets of data on HDFS</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Supports table structuring of data in HDFS</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">SQL like query language - HiveQL</font>
+                </li>
+            </ul>
+        </section>
+        <section class="" data-id="be506f672036419323a05c58b341869b">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Hive continued...</b>
+                </font>
+            </p>
+            <ul class="absolute-element" style="position: absolute; width: 789px; height: 248.18110236220474px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Complies HiveQL queries into MapReduce jobs/font&gt;
+</font>
+                </li>
+                <font style="font-size: 32px;">
+                    <li style="margin-bottom: 24px;">
+                        <font style="font-size: 32px;">Data stored in HDFS</font>
+                    </li>
+                    <li style="margin-bottom: 24px;">
+                        <font style="font-size: 32px;">Doesn’t support transactions</font>
+                    </li>
+                    <li style="margin-bottom: 24px;">
+                        <font style="font-size: 32px;">Supports UDF’s (User Defined Functions)</font>
+                    </li>
+                </font>
+            </ul>
+            <font style="font-size: 32px;"></font>
+        </section>
+        <section class="" data-id="6570d724b5df5c752063168b5020639d">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Hive Components</b>
+                </font>
+            </p>
+            <ul class="absolute-element" style="position: absolute; width: 832px; height: 400px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">
+                        <b>Shell </b>- Interactive queries
+                    </font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">
+                        <b>Driver</b> - session handle, fetch and execute
+                    </font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">
+                        <b>Compiler</b> - Parse, plan and optimize
+                    </font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">
+                        <b>Execution Engine</b> - default TEZ | DAG of stages (Converted to MapReduce)
+                    </font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">
+                        <b>Metastore</b> - Schema, data location, SerDe
+                    </font>
+                </li>
+            </ul>
+            <aside class="notes">SerDe - Serialization and Deserialization</aside>
+        </section>
+        <section class="" data-id="bf6e89eb89e38e859aa8472fd1a2153d">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Hive Metastore</b>
+                </font>
+            </p>
+            <ul class="absolute-element" style="position: absolute; width: 789px; height: 248.18110236220474px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Database - Namespace containing a set of tables</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Table - Contains list of columns, their types and SerDe info</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Partition - Mapping to HDFS directories</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Statistics - Info about the database</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Supports MySQL, Derby and others</font>
+                </li>
+            </ul>
+        </section>
+        <section class="" data-id="21743efec971294eaf098339ed916695">&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/744080/pasted-from-clipboard.png" style="width: 429px; height: 188.206451612903px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 15px; top: 272px;" class="absolute-element"/>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/744074/pasted-from-clipboard.png" class="absolute-element" style="position: absolute; max-height: none; max-width: none; width: 417.321428571429px; height: 380px; z-index: 4; left: 493px; top: 177px;"/>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Query Processing</b>
+                </font>
+            </p>
+        </section>
+        <section class="" data-id="ad9b724ecd45070a0e3680b88a121e54">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Hive/MR vs Hive/Tez</b>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 597px; height: 369px; z-index: 4; left: 92px; top: 141px;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/744596/pasted-from-clipboard.png" style="width: 763px; height: 448.905282331512px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+        </section>
+        <section class="" data-id="e9a6027cf3dbaf7e1f997efd32a5af4c">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Interacting with Hive</b>
+                </font>
+            </p>
+            <ul class="absolute-element" style="position: absolute; width: 788px; height: 129px; z-index: 4; left: 70px; top: 167px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Hive cli to connect to hiveserver</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Beeline cli to connect to hiveserver2</font>
+                </li>
+            </ul>
+            <pre class="absolute-element" style="position: absolute; width: 866px; height: 66.6876640419948px; z-index: 4; left: 40px; top: 317px; max-height: none; max-width: none;">
+                <code contenteditable="">
+                    <font style="font-size: 32px;">$hive
+hive&gt; create table test(id string);
+hive&gt; describe test;
+hive&gt; drop table test;</font>
+                </code></pre>
+        </section>
+        <section class="" data-id="65d391287e21cceea637e3ed6e3588a9">&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/744681/pasted-from-clipboard.png" style="width: 786px; height: 406.1px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 70px; top: 147px;" class="absolute-element"/>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Hive Tables</b>
+                </font>
+            </p>
+        </section>
+        <section class="" data-id="8ec383e27984d09284624a4886b07d8e">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>HCatalog</b>
+                </font>
+            </p>
+            <ul class="absolute-element" style="position: absolute; width: 789px; height: 248.18110236220474px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Metadata and table management for Hadoop</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Shared schema for Hive, Pig and MapReduce</font>
+                </li>
+            </ul>
+        </section>
+        <section class="" data-id="b701ba801b857bce4eb831e043212176">&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/744690/pasted-from-clipboard.png" class="absolute-element" style="position: absolute; max-height: none; max-width: none; width: 545.090445859873px; height: 566px; z-index: 4; left: 181px; top: 110px;"/>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>HCatalog</b>
+                </font>
+            </p>
+        </section>
+        <section class="" data-id="a2dfceb371cc295feaa108a3fa5be3c7">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Apache Tez</b>
+                </font>
+            </p>
+            <ul class="absolute-element" style="position: absolute; width: 835px; height: 248px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Execution framework to improve performance of Hive </font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">In the future Pig will also be able to use the Tez engine as its back end</font>
+                </li>
+            </ul>
+        </section>
+        <section class="has-light-background" data-id="0d93af2e009f7d7bdc2884fe3db02563" data-background-color="rgba( 50, 200, 90, 0.4 )">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Pig Walkthrough</b>
+                </font>
+            </p>
+            <pre class="absolute-element" style="position: absolute; width: 868px; height: 384px; z-index: 4; left: 40px; top: 157px; max-height: none; max-width: none;">
+                <code contenteditable="">
+Log onto the gateway node
+
+wget https://s3.amazonaws.com/hw-sandbox/tutorial1/infochimps_dataset_4778_download_16677-csv.zip
+
+unzip
+
+cd infochimps_dataset_4778_download_16677/
+
+hdfs dfs -put NYSE
+
+pig
+
+STOCK_A = LOAD 'NYSE/NYSE_daily_prices_A.csv' using PigStorage(',') AS (exchange:chararray, symbol:chararray,
+date:chararray, open:float, high:float, low:float, close:float, volume:int, adj_close:float); DESCRIBE STOCK_A
+
+B = LIMIT STOCK_A 100;
+
+DESCRIBE B;
+
+C = FOREACH B GENERATE symbol, date, close;
+
+DESCRIBE C;
+
+STORE C INTO 'output/C';
+
+quit
+hdfs dfs -cat output/C/part-r-00000
+</code></pre>
+            <br/>
+        </section>
+        <section class="has-light-background" data-id="cbd5b7d151e9cca1d0103f81ffabc58f" data-background-color="rgba( 50, 200, 90, 0.4 )">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 901.754276178557px; height: 57px; z-index: 4; left: 26px; top: 35px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Lab: Working with Hive</b>
+                </font>
+            </p>
+            <ol class="absolute-element" style="position: absolute; width: 824px; height: 428px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Download data from
+                        <a href="http://seanlahman.com/files/database/lahman591-csv.zip">http://seanlahman.com/files/database/lahman591-csv.zip</a>
+                    </font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">This lab will use Master.csv and Batting.csv from unzipped files</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Load those files into HDFS, load it thru hive, cleanse and run queries</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Get the max runs per year</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Next get the player ID who has the highest score
+</font>
+                </li>
+            </ol>
+        </section>
+        <section class="has-light-background" data-id="fd131fbf4ebe9f290a544c9a8784a270" data-background-color="rgba( 50, 200, 90, 0.4 )">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 901.754276178557px; height: 57px; z-index: 4; left: 26px; top: 35px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Lab: Working with Hive</b>
+                </font>
+            </p>
+            <ol class="absolute-element" style="position: absolute; width: 824px; height: 278px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Now load Master.csv similar to how we loaded Batting.csv. The column names should be available in the readme.txt file from the unzipped folder.
+</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Combine data from both fields to list the player name instead of the player id.</font>
+                </li>
+            </ol>
+        </section>
+        <section class="has-light-background" data-id="08a0a0cddd61e6f4f2e5aa543534295a" data-background-color="rgba( 50, 200, 90, 0.4 )">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Hive Walkthrough</b>
+                </font>
+            </p>
+            <pre class="absolute-element" style="position: absolute; width: 868px; height: 384px; z-index: 4; left: 40px; top: 157px; max-height: none; max-width: none;">
+                <code contenteditable="">
+SSH into the Gateway node
+
+wget http://seanlahman.com/files/database/lahman591-csv.zip
+
+sudo yum install unzip
+
+unzip lahman591-csv.zip
+
+hdfs dfs -mkdir /user/
+                    <username>/baseball
+
+hdfs dfs -copyFromLocal Master.csv Batting.csv /user/
+                        <username>/baseball
+
+hive (This gets you into the hive shell)
+
+hive&gt; CREATE TABLE batting(player_id STRING, year INT, stint INT, team STRING, league STRING, games INT, games_batter
+
+INT, at_bats INT, runs INT, hits INT, doubles INT, triples INT, homeruns INT, runs_batted_in INT, stolen_bases INT,
+
+caught_stealing INT, base_on_balls INT, strikeouts INT, walks INT, hit_by_pitch INT, sh INT, sf INT, gidp INT, g_old INT) ROW
+
+FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE;
+
+hive&gt; LOAD DATA INPATH '/user/
+                            <username>baseball/Batting.csv' OVERWRITE INTO TABLE batting;
+
+hive&gt; SELECT year, max(runs) FROM batting GROUP BY year;
+
+hive&gt; SELECT b.year, b.player_id, b.runs from batting b JOIN (SELECT year, max(runs) runs FROM batting GROUP BY year) y ON (b.year = y.year and b.runs = y.runs);
+</username>
+                        </username>
+                    </username>
+                </code></pre>
+            <br/>
+        </section>
+    </section>
+    <section class="stack" data-id="f762214f07129fb4a7aa26f243d54a15">
+        <section class="" data-id="0d89e585c320460a6fbaa6300528967e">&nbsp;
+            <p class="absolute-element" style="position: absolute; width: 950.333px; height: 121px; z-index: 4; left: 3px; top: 217px; max-height: none; max-width: none;">
+                <font style="font-size: 98px;">
+                    <b>Ingest Data via Swifts</b>
+                </font>
+            </p>
+            <aside class="notes">
+This is a chapter slide
+</aside>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/746916/pasted-from-clipboard.png" class="absolute-element" style="position: absolute; max-height: none; max-width: none; width: 102.822580645161px; height: 150px; z-index: 4; left: 801px; top: 519px;"/>
+        </section>
+        <section class="" data-id="5a4f65ac9066bf175e65d7809116cdb0">
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>SwiftFS for Hadoop</b>
+                </font>
+            </p>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/746916/pasted-from-clipboard.png" class="absolute-element" style="position: absolute; max-height: none; max-width: none; width: 111px; height: 147.861940298507px; z-index: 4; left: 803px; top: 525px;"/>
+            <br/>
+            <ul class="absolute-element" style="position: absolute; width: 789px; height: 248.18110236220474px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">New Hadoop filesystem URL, swift://</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Read from and write to Swift object stores</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Supports local and remote stores</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Included as part of Hadoop</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Can use anywhere you can use hdfs:// URLs</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;"> swift://[container].rack-[region]/[path]</font>
+                </li>
+            </ul>
+        </section>
+        <section class="" data-id="291f2010b4fadd7ece9695e76e222869">&nbsp;
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/744853/pasted-from-clipboard.png" class="absolute-element" style="position: absolute; max-height: none; max-width: none; width: 858px; height: 441.038265306122px; z-index: 4; left: 36px; top: 154px;"/>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>SwiftFS for Hadoop cont...</b>
+                </font>
+            </p>
+        </section>
+        <section class="" data-id="977bd330c41c207e73fc0ed2484b9871">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>SwiftFS for Hadoop (cont.)</b>
+                </font>
+            </p>
+            <h2 class="absolute-element" style="position: absolute; width: 717px; height: 523px; z-index: 4; left: 116px; top: 129px; max-height: none; max-width: none;">
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/744875/pasted-from-clipboard.png" style="width: 676px; height: 521.098998887653px; max-height: none; max-width: none;"/>
+                <br/>
+            </h2>
+        </section>
+        <section class="" data-id="0c0f66f8ad87479b2dd414c45ab869d8">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Advantages </b>
+                </font>
+            </p>
+            <ul class="absolute-element" style="position: absolute; width: 789px; height: 248.18110236220474px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Store data 24/7 without a running cluster</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">“Unlimited” storage capacity</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Easily share data between clusters</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Cross-datacenter storage</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Compatible with Hive, Pig, and other tools</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Other considerations | ~30% performance hit
+</font>
+                </li>
+            </ul>
+            <aside class="notes">Data can be stored 24/7 without the need to have a cluster running.  This saves you the cost of running a Hadoop cluster 24/7 just to hold on to
+your data.  Cloud Files offers unlimited storage capacity charged based on your usage.  There is no need to upgrade your cluster as your storage requirements increase.
+This can allow for longer storage or archiving of infrequently-accessed data.  It could also be used in conjunction with a 24/7 cluster to keep live data on the cluster
+and archive old data to Cloud Files.  Cross-datacenter (public) Swift access can allow for remote storage of your data for backup or disaster recovery purposes.
+
+In testing, jobs ran against Cloud Files using SwiftFS took 30% longer to run compared to local HDFS storage.  The cost of a larger cluster or longer-running job can
+be offset by the savings of not having the cluster running 24/7.  (Testing was performed with a set of 256MB files and a 256MB HDFS block size)
+
+</aside>
+        </section>
+        <section class="" data-id="a3543409d6083b9c0862f07a82a0ba30">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Disadvantages</b>
+                </font>
+            </p>
+            <ul class="absolute-element" style="position: absolute; width: 830px; height: 248px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Content will be retrieved/sent to Swift for storage, as operations will still occur within HDFS</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Network throughput for this work can be a bottleneck</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Slower read/write, but still fucking cool</font>
+                </li>
+            </ul>
+        </section>
+        <section class="" data-id="a9240cba8e6293349e9e7532356d8b3b">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 54px;">
+                    <b>Wiki Resource</b>
+                </font>
+            </p>
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 911px; height: 107px; z-index: 4; left: 38px; top: 124px; max-height: none; max-width: none;">
+                <a href="http://www.rackspace.com/knowledge_center/article/swift-filesystem-for-hadoop">http://www.rackspace.com/knowledge_center/article/swift-filesystem-for-hadoop
+</a>
+            </p>
+        </section>
+        <section class="has-light-background" data-id="53232f870f66eabc495446085b2f1573" data-background-color="rgba( 50, 200, 90, 0.4 )">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 44px;">
+                    <b>Lab: Working with SwiftFS | Part 1</b>
+                </font>
+            </p>
+            <ol class="absolute-element" style="position: absolute; width: 840px; height: 389px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Working on your gateway node, unzip files from
+                        <a href="http://seanlahman.com/files/database/lahman591-csv.zip">http://seanlahman.com/files/database/lahman591-csv.zip </a>
+                    </font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Using the same DC as your cluster, create a container in Cloud Files called baseball</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Load Master.csv and Batting.csv into the container</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Load data in the .csv file in Cloud files into a hive table similar to the previous chapter but using swiftFS URI instead</font>
+                </li>
+            </ol>
+        </section>
+        <section class="has-light-background" data-id="a804e606f25b89c3a7b132bdbf92eca6" data-background-color="rgba( 50, 200, 90, 0.4 )">&nbsp;
+            <p class="absolute-element" style="text-align: left; position: absolute; width: 664.3595800524935px; height: 55px; z-index: 4; left: 38px; top: 41px; max-height: none; max-width: none;">
+                <font style="font-size: 44px;">
+                    <b>Lab: Working with SwiftFS | Part 2</b>
+                </font>
+            </p>
+            <ol class="absolute-element" style="position: absolute; width: 840px; height: 389px; z-index: 4; left: 75px; top: 128px; max-height: none; max-width: none;">
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Run the same queries
+</font>
+                </li>
+                <li style="margin-bottom: 24px;">
+                    <font style="font-size: 32px;">Create an external table in CloudFiles using Hive and load some results there.</font>
+                </li>
+            </ol>
+        </section>
+    </section>
+    <section class="" data-id="1466d8322c562efe547c99435e4bc05c">&nbsp;
+        <p class="absolute-element" style="position: absolute; width: 945.1102362204724px; height: 92px; z-index: 4; left: 3px; top: 268px; max-height: none; max-width: none;">
+            <font style="font-size: 54px;">
+                <b> Assess your Knowledge </b>
+            </font>
+        </p>
+        <aside class="notes">this is a transition slide</aside>
+    </section>
+    <section class="" data-id="292713348411c99db8490ade3ac787ae">&nbsp;
+        <p class="absolute-element" style="text-align: left; position: absolute; width: 837.3228346456693px; height: 46px; z-index: 6; left: 31px; top: 87px; max-height: none; max-width: none;">
+            <font>
+                <font style="font-size: 42px;">
+                    <b>A massive thanks to the content dev team...</b>
+                </font>
+            </font>
+        </p>
+        <p class="absolute-element" style="text-align: left; position: absolute; width: 374.38057742782155px; height: 46px; z-index: 10; left: 137px; top: 163px; max-height: none; max-width: none;">Casey Gotcher</p>
+        <p class="absolute-element" style="text-align: left; position: absolute; width: 377.6299212598425px; height: 46px; z-index: 4; left: 137px; top: 228px; max-height: none; max-width: none;">Chris Old</p>
+        <p class="absolute-element" style="text-align: left; position: absolute; width: 377.6299212598425px; height: 46px; z-index: 8; left: 137px; top: 293px; max-height: none; max-width: none;">David Grier</p>
+        <p class="absolute-element" style="text-align: left; position: absolute; width: 378.9422572178478px; height: 46px; z-index: 9; left: 137px; top: 359px; max-height: none; max-width: none;">Joe Silva</p>
+        <p class="absolute-element" style="text-align: left; position: absolute; width: 383.2545931758531px; height: 47px; z-index: 12; left: 525px; top: 163px; max-height: none; max-width: none;">Mark Lessel</p>
+        <p class="absolute-element" style="text-align: left; position: absolute; width: 383.56692913385825px; height: 46px; z-index: 13; left: 525px; top: 228px; max-height: none; max-width: none;">Nirmal Ranganathan</p>
+        <p class="absolute-element" style="text-align: left; position: absolute; width: 385.5196850393701px; height: 46px; z-index: 14; left: 525px; top: 293px; max-height: none; max-width: none;">Sean Anderson</p>
+        <p class="absolute-element" style="text-align: left; position: absolute; width: 385.51968503937px; height: 46px; z-index: 14; left: 525px; top: 360px; max-height: none; max-width: none;">Chris Caillouet</p>
+        <p class="absolute-element" style="text-align: left; position: absolute; width: 382.9212598425197px; height: 46px; z-index: 4; left: 525px; top: 425px; max-height: none; max-width: none;">
+            <br/>
+        </p>
+    </section>
+    <section class="" data-id="f5d29d1cb8a9f62652491bce883d9e9c">&nbsp;
+        <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/524799/pasted-from-clipboard.png" class="absolute-element" style="position: absolute; max-height: none; max-width: none; width: 785.121px; height: 173.401px; z-index: 4; left: 74px; top: 142px;"/>
+        <p class="absolute-element" style="position: absolute; width: 804.564px; height: 46px; z-index: 4; left: 74px; top: 363px; max-height: none; max-width: none;">
+            <font style="font-size: 54px;">
+                <a href="http://hortonworks.com">http://hortonworks.com</a>
+            </font>
+        </p>
+        <p style="max-height: none; max-width: none;">
+            <font style="font-size: 54px;">
+                <br/>
+            </font>
+        </p>
+        <p style="max-height: none; max-width: none;">
+            <font style="font-size: 54px;">
+                <br/>
+            </font>
+        </p>
+        <p style="max-height: none; max-width: none;">
+            <font style="font-size: 54px;">
+                <br/>
+            </font>
+        </p>
+        <p style="max-height: none; max-width: none;">
+            <font style="font-size: 54px;">
+                <br/>
+            </font>
+        </p>
+        <p style="max-height: none; max-width: none;">
+            <font style="font-size: 54px;">
+                <br/>
+            </font>
+        </p>
+    </section>
+</div>
