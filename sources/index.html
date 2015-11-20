@@ -1,0 +1,13 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Available Presentations</title>
+</head>
+<body>
+    <ul>
+    {% for presentation in presentations %}
+        <li><a href="{{ presentation.name }}/index.html">{{ presentation.title }}</a></li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
