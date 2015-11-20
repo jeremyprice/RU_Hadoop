@@ -25,6 +25,7 @@
   </head>
 </head>
 <body>
+    <div class="reveal">
 <div class="slides">
     <section class="" data-id="f10846a81aadc360cfd28e5bdeebef0b">&nbsp;
         <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/racku/images/524799/pasted-from-clipboard.png" class="absolute-element" style="position: absolute; max-height: none; max-width: none; width: 785.121px; height: 173.401px; z-index: 4; left: 74px; top: 142px;"/>
@@ -2837,5 +2838,29 @@ flavors.  We recommend 3 data nodes so you can combine them based on size (1.25T
         </h2>
     </section>
 </div>
+</div>
+<script src="reveal.js/lib/js/head.min.js"></script>
+    <script src="reveal.js/js/reveal.min.js"></script>
+
+    <script>
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+    </script>
 </body>
 </html>
