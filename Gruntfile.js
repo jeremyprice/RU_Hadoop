@@ -1,1 +1,1 @@
-reveal.js/Gruntfile.js
+presentations/reveal.js/Gruntfile.js
